@@ -9,13 +9,13 @@ function App() {
     <Navbar/>
     <div className="pt-32 text-center">
       <h2 className="font-extrabold text-7xl text-white font-inter py-20" >
-        Hi I am Ryan Flynn and I'm a
+        Hi I'm Ryan Flynn and I'm a
       </h2>
       <h2 className="font-extrabold text-7xl text-white font-inter bg-gradient-to-r bg-clip-text text-transparent
 from-blue-400 
 to-orange-500 
 via-purple-500 animate-gradient-x pb-1.5" >
-        Fullstack Engineer
+        Full-Stack Engineer
       </h2>
     </div>
     {/* <Canvas>
