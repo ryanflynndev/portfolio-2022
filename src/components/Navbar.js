@@ -11,7 +11,7 @@ export default function Navbar() {
                 <div className="flex justify-between">
                     <div className="flex space-x-4">
                         <div>
-                            <a href="/"className='flex items-center py-2 px-3'>
+                            <a href="/portfolio-2022"className='flex items-center py-2 px-3'>
                                 <Logo className="h-14 w-14 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300"/>
                             </a>
                         </div>
