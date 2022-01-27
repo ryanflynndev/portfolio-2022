@@ -1,8 +1,8 @@
-import { ReactComponent as Logo } from '../logo.svg';
-import { ReactComponent as ProjectsLogo} from '../projectsLogo.svg';
-import { ReactComponent as BlogLogo} from '../blogLogo.svg';
-import { ReactComponent as GitHubLogo} from '../githubLogo.svg';
-import { ReactComponent as LinkedinLogo} from '../linkedinLogo.svg';
+import { ReactComponent as Logo } from '../svgs/logo.svg';
+import { ReactComponent as ProjectsLogo} from '../svgs/projectsLogo.svg';
+import { ReactComponent as BlogLogo} from '../svgs/blogLogo.svg';
+import { ReactComponent as GitHubLogo} from '../svgs/githubLogo.svg';
+import { ReactComponent as LinkedinLogo} from '../svgs/linkedinLogo.svg';
 
 export default function Navbar() {
     return (
@@ -17,7 +17,7 @@ export default function Navbar() {
                         </div>
                     </div>
 
-                    <div className="flex items-center space-x-6">
+                    <div className="hidden md:flex items-center space-x-6">
                         <a href="/" className="flex items-center space-x-1">
                             <ProjectsLogo className="h-12 w-12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"/>
                             <text className='hover:text-red-300 duration-300'>Projects</text>
@@ -34,6 +34,9 @@ export default function Navbar() {
                             <LinkedinLogo className="h-12 w-12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"/>
                             <text className='hover:text-blue-300 duration-300'>Linkedin</text>
                         </a>
+                    </div>
+                    <div className="md:hidden flex items-center px-3">
+
                     </div>
                 </div>
             </div>
