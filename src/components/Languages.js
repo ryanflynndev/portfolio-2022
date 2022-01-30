@@ -5,8 +5,7 @@ import { ReactComponent as NodeLogo } from '../svgs/nodeLogo.svg';
 function Languages (props) {
     return (
         <div>
-            <div className="text-center text-2xl text-white">Technologies I Frequently Use</div>
-            <div className="grid items-center grid-cols-4 place-items-center">
+            <div className="grid items-center grid-cols-4 place-items-center pt-32">
                 <div className="flex items-center space-x-1">
                     <JavaScriptLogo/>
                 </div>
@@ -15,6 +14,21 @@ function Languages (props) {
                 </div>
                 <div className="flex items-center space-x-1">
                     <NodeLogo/>
+                </div>
+                <div className="flex items-center space-x-1">
+                    Hello
+                </div>
+                <div className="flex items-center space-x-1">
+                    Hello
+                </div>
+                <div className="flex items-center space-x-1">
+                    Hello
+                </div>
+                <div className="flex items-center space-x-1">
+                    Hello
+                </div>
+                <div className="flex items-center space-x-1">
+                    Hello
                 </div>
                 <div className="flex items-center space-x-1">
                     Hello

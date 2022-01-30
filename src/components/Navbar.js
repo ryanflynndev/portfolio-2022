@@ -36,7 +36,6 @@ export default function Navbar() {
                         </a>
                     </div>
                     <div className="md:hidden flex items-center px-3">
-
                     </div>
                 </div>
             </div>
