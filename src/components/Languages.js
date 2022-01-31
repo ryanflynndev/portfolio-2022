@@ -1,11 +1,17 @@
 import { ReactComponent as JavaScriptLogo } from '../svgs/javaScriptLogo.svg';
 import { ReactComponent as TypeScriptLogo } from '../svgs/typeScriptLogo.svg';
 import { ReactComponent as NodeLogo } from '../svgs/nodeLogo.svg';
+import { ReactComponent as ReactLogo } from '../svgs/reactLogo.svg';
+import { ReactComponent as RailsLogo } from '../svgs/railsLogo.svg';
+import { ReactComponent as GraphQLLogo } from '../svgs/graphqlLogo.svg';
+import { ReactComponent as PythonLogo } from '../svgs/pythonLogo.svg';
+import { ReactComponent as PostgresqlLogo } from '../svgs/postgresqlLogo.svg';
+
 
 function Languages (props) {
     return (
         <div>
-            <div className="grid items-center grid-cols-4 place-items-center pt-32">
+            <div className="grid items-center grid-cols-4 place-items-center py-16">
                 <div className="flex items-center space-x-1">
                     <JavaScriptLogo/>
                 </div>
@@ -16,22 +22,19 @@ function Languages (props) {
                     <NodeLogo/>
                 </div>
                 <div className="flex items-center space-x-1">
-                    Hello
+                    <ReactLogo/>
                 </div>
                 <div className="flex items-center space-x-1">
-                    Hello
+                    <RailsLogo/>
                 </div>
                 <div className="flex items-center space-x-1">
-                    Hello
+                    <GraphQLLogo/>
                 </div>
                 <div className="flex items-center space-x-1">
-                    Hello
+                    <PythonLogo/>
                 </div>
                 <div className="flex items-center space-x-1">
-                    Hello
-                </div>
-                <div className="flex items-center space-x-1">
-                    Hello
+                    <PostgresqlLogo/>
                 </div>
             </div>
         </div>
