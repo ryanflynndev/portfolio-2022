@@ -51,7 +51,7 @@ function App() {
       <h2 className="font-extrabold text-7xl text-white font-inter">My Projects</h2>
       <Projects/>
     </div>
-    <div className="pt-32 text-center  mx-auto relative min-h-screen w-screen bg-yellow-300">
+    <div className="pt-32 text-center  mx-auto relative min-h-screen w-screen bg-yellow-400">
       <h2 className="font-extrabold text-7xl text-white font-inter">Currently Learning</h2>
       <CurrentlyLearning/>
     </div>
