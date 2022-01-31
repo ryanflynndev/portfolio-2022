@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-2022/static/css/main.62978cdc.css",
-    "main.js": "/portfolio-2022/static/js/main.06dac7ce.js",
+    "main.css": "/portfolio-2022/static/css/main.2e7a1f86.css",
+    "main.js": "/portfolio-2022/static/js/main.94104a0e.js",
     "static/js/787.6b817f16.chunk.js": "/portfolio-2022/static/js/787.6b817f16.chunk.js",
+    "static/media/webAssemblyLogo.svg": "/portfolio-2022/static/media/webAssemblyLogo.cb7b10abae18ce876e8f3099e320382e.svg",
+    "static/media/rubikLogo.svg": "/portfolio-2022/static/media/rubikLogo.2c7337859a2384df26facded9265dc8c.svg",
+    "static/media/electronLogo.svg": "/portfolio-2022/static/media/electronLogo.dbf002e2050aee5a683afd46f3d042a6.svg",
     "static/media/aboutMeLogo.svg": "/portfolio-2022/static/media/aboutMeLogo.05c4c4087c4808c289ccc83756c56d88.svg",
+    "static/media/rustLogo.svg": "/portfolio-2022/static/media/rustLogo.e4f191b6782e8308885d789dc2f47b7a.svg",
     "static/media/logo.svg": "/portfolio-2022/static/media/logo.1996ed096dc27caf2e63b6ac59adbdab.svg",
+    "static/media/kumoLogo.svg": "/portfolio-2022/static/media/kumoLogo.9adfa554edb52fa8a7fcab64a644e769.svg",
     "static/media/railsLogo.svg": "/portfolio-2022/static/media/railsLogo.4d5e9197b48127d22836273f024ce71c.svg",
     "static/media/nodeLogo.svg": "/portfolio-2022/static/media/nodeLogo.9a91507d5090d62d2c89643c9c238ce2.svg",
     "static/media/reactLogo.svg": "/portfolio-2022/static/media/reactLogo.d6cc1076f42e78c3f05ca0218aebcb1e.svg",
@@ -17,13 +22,14 @@
     "static/media/linkedinLogo.svg": "/portfolio-2022/static/media/linkedinLogo.8d928297e77729c3615da209b7e7fa53.svg",
     "static/media/typeScriptLogo.svg": "/portfolio-2022/static/media/typeScriptLogo.d352a4c0e553bd283fde2a7c90187bfa.svg",
     "static/media/blogLogo.svg": "/portfolio-2022/static/media/blogLogo.e18f18a82e48b6e0709886798cd76fbd.svg",
+    "static/media/ethereumLogo.svg": "/portfolio-2022/static/media/ethereumLogo.3c71105cf8e461484eab6a2852cfcf08.svg",
     "index.html": "/portfolio-2022/index.html",
-    "main.62978cdc.css.map": "/portfolio-2022/static/css/main.62978cdc.css.map",
-    "main.06dac7ce.js.map": "/portfolio-2022/static/js/main.06dac7ce.js.map",
+    "main.2e7a1f86.css.map": "/portfolio-2022/static/css/main.2e7a1f86.css.map",
+    "main.94104a0e.js.map": "/portfolio-2022/static/js/main.94104a0e.js.map",
     "787.6b817f16.chunk.js.map": "/portfolio-2022/static/js/787.6b817f16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62978cdc.css",
-    "static/js/main.06dac7ce.js"
+    "static/css/main.2e7a1f86.css",
+    "static/js/main.94104a0e.js"
   ]
 }
