@@ -5,6 +5,7 @@ import Languages from "./components/Languages";
 import { useState, useEffect } from 'react';
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
+import CurrentlyLearning from "./components/CurrentlyLearning";
 
 function App() {
 
@@ -47,10 +48,12 @@ function App() {
       <Languages/>
     </div>
     <div className="pt-32 text-center  mx-auto relative min-h-screen w-screen bg-green-400">
-      <h2 className="font-extrabold text-7xl text-white font-inter">SECTION 4</h2>
+      <h2 className="font-extrabold text-7xl text-white font-inter">My Projects</h2>
+      <Projects/>
     </div>
     <div className="pt-32 text-center  mx-auto relative min-h-screen w-screen bg-yellow-300">
-      <h2 className="font-extrabold text-7xl text-white font-inter">SECTION 5</h2>
+      <h2 className="font-extrabold text-7xl text-white font-inter">Currently Learning</h2>
+      <CurrentlyLearning/>
     </div>
 
   </div>
