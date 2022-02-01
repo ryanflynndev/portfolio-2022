@@ -18,7 +18,7 @@ export default function Navbar() {
                     </div>
 
                     <div className="hidden md:flex items-center space-x-6">
-                        <a href="/" className="flex items-center space-x-1">
+                        <a href="/portfolio-2022#projects" className="flex items-center space-x-1">
                             <ProjectsLogo className="h-12 w-12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"/>
                             <text className='hover:text-red-300 duration-300'>Projects</text>
                         </a>
